@@ -1,8 +1,10 @@
-Heroku buildpack: Node.js
+Heroku buildpack: Node.js+Phantomjs
 =========================
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Node.js apps.
 It uses [NPM](http://npmjs.org/) and [SCons](http://www.scons.org/).
+
+Also contains phantomjs, based on https://github.com/stomita/heroku-buildpack-phantomjs/
 
 Usage
 -----
